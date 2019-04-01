@@ -1,0 +1,8 @@
+D:\project\cs\BaiduMapTile\BaiduMapTile\obj\Debug\BaiduMapTile.csprojResolveAssemblyReference.cache
+D:\project\cs\BaiduMapTile\BaiduMapTile\obj\Debug\BaiduMapTile.FormMain.resources
+D:\project\cs\BaiduMapTile\BaiduMapTile\obj\Debug\BaiduMapTile.Properties.Resources.resources
+D:\project\cs\BaiduMapTile\BaiduMapTile\obj\Debug\BaiduMapTile.csproj.GenerateResource.Cache
+D:\project\cs\BaiduMapTile\BaiduMapTile\bin\Debug\BaiduMapTile.exe
+D:\project\cs\BaiduMapTile\BaiduMapTile\bin\Debug\BaiduMapTile.pdb
+D:\project\cs\BaiduMapTile\BaiduMapTile\obj\Debug\BaiduMapTile.exe
+D:\project\cs\BaiduMapTile\BaiduMapTile\obj\Debug\BaiduMapTile.pdb

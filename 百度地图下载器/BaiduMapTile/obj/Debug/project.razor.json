@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "d:\\GithubProjects\\webgis\\百度地图下载器\\BaiduMapTile\\BaiduMapTile.csproj",
+  "TargetFramework": "v3.5",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
