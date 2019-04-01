@@ -1598,7 +1598,8 @@
         YM: {},
         Cv: {
             //yC: "http://api0.map.bdimg.com/getmodules?v=2.0",
-            yC: "./js/getmodules",
+            //cqy
+            yC: "./js/getmodules.js",
             OF: 5E3
         },
         Vs: o,
