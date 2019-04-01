@@ -1,4 +1,4 @@
-window.BMAP_AUTHENTIC_KEY = "5bazcdquPRfGAuq07tGjefLL"; (function() {
+锘縲indow.BMAP_AUTHENTIC_KEY = "5bazcdquPRfGAuq07tGjefLL"; (function() {
     var aa = void 0,
     i = !0,
     n = null,
@@ -4056,8 +4056,9 @@ window.BMAP_AUTHENTIC_KEY = "5bazcdquPRfGAuq07tGjefLL"; (function() {
         this.map.ph();
         e = kc[c];
         //return (jc[Math.abs(d + a) % jc.length] + "?qt=tile&x=" + (d + "").replace(/-/gi, "M") + "&y=" + (a + "").replace(/-/gi, "M") + "&z=" + b + "&styles=" + e + (6 == t.M.U ? "&color_dep=32&colors=50": "") + "&udt=20131118").replace(/-(\d+)/gi, "M$1")
-        //街道地图是png，卫星图是jpg
-        return "maptile/" + b + "/" + d + "/" + a + ".png"
+        //琛楅亾鍦板浘鏄痯ng锛屽崼鏄熷浘鏄痡pg
+        //cqy
+        return "../maptile/" + b + "/" + d + "/" + a + ".png"
     };
     var ra = new hc("\u5730\u56fe", mc, {
         tips: "\u663e\u793a\u666e\u901a\u5730\u56fe"
