@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    http://www.njmap.gov.cn/geomap-api/JsCodeDemo/public/JS2DMapBaseOperation/zoomMap.html
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>天地图</title>
+        <link href="http://www.njmap.gov.cn/geomap-api/JsCodeDemo/css/demoComm.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="simpleMap" style="height: 100%;"></div>	
+        <script type="text/javascript">
+			window.onload = function(){
+             //init();
+	        	//实例化一个底图对象，容器dom的id是simpleMap，默认加载sdk中的矢量影像图层
+	            var map = new Geo.View2D.Map("simpleMap", {layerGroupLoaded: true});
+	            //定位到中心点
+	           	map.setCenter(new Geo.LonLat(118.77, 32.05));
+			}
+        </script>
+    </body>
+</html>
