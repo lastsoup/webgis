@@ -1178,7 +1178,8 @@
             } catch(c) {
                 b = o
             }
-			//return a && b
+            //return a && b
+            //cqy 禁用canvas
 			return false
         },
         getCurrentCity: function() {

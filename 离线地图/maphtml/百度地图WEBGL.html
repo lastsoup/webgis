@@ -2,11 +2,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>百度离线街道地图DEMO</title>
-<script type="text/javascript" src="js/apiv2.0_street.js"></script>
-<script type="text/javascript" src="js/AreaRestriction.js"></script>
-<script type="text/javascript" src="js/DrawingManager_one_rect.js"></script>
-<link rel="stylesheet" href="style/DrawingManager.css" />
+<title>百度地图(WEBGL引擎)</title>
+<script type="text/javascript" src="js/3.0/getscript.js"></script>
 <style type="text/css">
   body,html,#map_container {
     width: 100%;
@@ -35,10 +32,14 @@
 </body>
 </html>
 <script type="text/javascript">
-var map = new BMap.Map("map_container"); 
-map.addControl(new BMap.NavigationControl());
-map.enableScrollWheelZoom();                  // 启用滚轮放大缩小。
-map.enableKeyboard();                         // 启用键盘操作。  
+var map = new BMap.Map("map_container",{
+        // mapType:"B_NORMAL_MAP",
+        // forceRenderType: "dom",
+        enableKeyboard: true,
+        enableWheelZoom:true,
+        enableContinuousZoom: true
+}); 
+map.addControl(new BMap.NavigationControl()); 
 
 
 function getZoom(){
