@@ -3072,7 +3072,6 @@ window.BMAP_AUTHENTIC_KEY = "";
         return c
     }
     ;function pa(a, b) {
-        //if (/^http/.test(a))  return;//cqy修改  屏蔽ak验证，若调用外部资源直接返回
         if (b) {
             var c = (1E5 * Math.random()).toFixed(0);
             D._rd["_cbk" + c] = function(a) {
