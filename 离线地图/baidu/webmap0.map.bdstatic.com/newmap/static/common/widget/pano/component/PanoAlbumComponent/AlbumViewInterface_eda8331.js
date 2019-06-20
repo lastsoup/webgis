@@ -1,0 +1,1 @@
+define("common:widget/pano/component/PanoAlbumComponent/AlbumViewInterface.js",function(e,n,o){var a=e("common:widget/pano/component/PanoAlbumComponent/AlbumView/PoiAlbumView.js"),i={build:function(e){var n;switch(e.data.type){case 1:case 2:case 3:case 4:case 5:case 6:n=new a(e)}return n.initialize()}};o.exports=i});

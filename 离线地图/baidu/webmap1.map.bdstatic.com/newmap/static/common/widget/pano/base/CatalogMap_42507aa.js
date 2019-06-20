@@ -1,0 +1,1 @@
+define("common:widget/pano/base/CatalogMap.js",function(){var a=["其他","正门","房型","设施","正门","餐饮设施","其他设施","正门","设施","观影厅","其他设施"],n=[0,1,2,2,2,2,2,2,2,3,3,3,3,4,5,5,5,6,6,7,8,8,8,9];return{getCatalogInfo:function(e){var o=n[1*e]||0;return{id:o,label:a[o]}}}});

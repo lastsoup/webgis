@@ -32,6 +32,7 @@
 </body>
 </html>
 <script type="text/javascript">
+//http://lbsyun.baidu.com/cms/jsapi/reference/jsapi_reference_3_0.html#a2b0
 var map = new BMap.Map("map_container",{
         // mapType:"B_NORMAL_MAP",
         // forceRenderType: "dom",
@@ -39,6 +40,7 @@ var map = new BMap.Map("map_container",{
         enableWheelZoom:true,
         enableContinuousZoom: true
 }); 
+map.setMapType(BMAP_HYBRID_MAP); //BMAP_PERSPECTIVE_MAP3D模式，百度目前已关闭该
 map.addControl(new BMap.NavigationControl()); 
 
 

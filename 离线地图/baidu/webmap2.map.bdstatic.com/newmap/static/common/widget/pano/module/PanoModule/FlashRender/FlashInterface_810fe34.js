@@ -1,0 +1,1 @@
+define("common:widget/pano/module/PanoModule/FlashRender/FlashInterface.js",function(){function n(){}var o=window.Pano=window.Pano||{};baidu.extend(n,{dispatchFlashEvent:function(n,o,a){try{var e=baiduInstance(a);e.dispatchEvent(n,{data:o})}catch(t){throw window.console&&console.error(t,n,o,a),t}},get:function(){return null},doAction:function(){}}),o.PanoFlashInterface=n});
