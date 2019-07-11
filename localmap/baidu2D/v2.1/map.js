@@ -1,9 +1,8 @@
 /* 离线地图API V2.1
- * 发布: http://www.xiaoguo123.com/p/baidumap_offline_v21
- * 百度地图图片即瓦片文件请自行下载，或联系(QQ群 616816128 验证：百度地图API)
+ * 百度地图图片即瓦片文件请自行下载
  * 研究学习之用，禁止用于商业用途！
  * 原始文件获取地址：http://api.map.baidu.com/getscript?v=2.0
- * 地图API在线示例: http://developer.baidu.com/map/jsdemo.htm
+ * 地图API在线示例: 
  * 最后修改日期: 2017-12-04
  */
 window.TILE_VERSION = {
