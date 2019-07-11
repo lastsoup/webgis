@@ -40,7 +40,8 @@
 	var map = new BMap.Map("map_demo");    // 创建Map实例
 	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 	map.addControl(new BMap.NavigationControl());   //缩放按钮
-
+  map.addControl(new BMap.MapTypeControl());
+ 
 	function getZoom(){
    alert(map.getZoom());
   }

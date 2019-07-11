@@ -33,8 +33,10 @@
 </html>
 <script type="text/javascript">
 var map = new BMap.Map("map_container"); 
-
+map.addControl(new BMap.MapTypeControl());
 map.addControl(new BMap.NavigationControl());
+//map.setMapType(BMAP_PERSPECTIVE_MAP); 
+
 map.enableScrollWheelZoom();                  // 启用滚轮放大缩小。
 map.enableKeyboard();                         // 启用键盘操作。  
 
@@ -74,4 +76,5 @@ function getZoom(){
       map.setMaxZoom(19);
   }
 
+  
 </script>
